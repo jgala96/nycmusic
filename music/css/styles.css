@@ -12,9 +12,9 @@ body{
 	margin:200px #0f0;
 }
 #main{
+	font-color:white;
 	width:25em;
 	margin:auto;
-
 }
 
 .tab{
@@ -39,7 +39,7 @@ a:active {
 }
 ul {
     list-style-type: none;
-    padding: 0;
+    padding:1em ;
     margin: 0;
     overflow: hidden;
 }
@@ -50,6 +50,6 @@ li {
 
 a {
     display: inline-block;
-    width: 7em;
+    width: 6.5em;
     background-color: #8A2BE2;
 }
