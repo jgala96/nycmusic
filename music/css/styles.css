@@ -50,6 +50,8 @@ li {
 
 a {
     display: inline-block;
-    width: 6.5em;
+    width: 6em;
+    height:1.2em;
+    margin:.4em;
     background-color: #8A2BE2;
 }
