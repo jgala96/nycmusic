@@ -1,0 +1,76 @@
+body{
+	background-color:#6AC5AC;
+}
+.nyc img{
+	margin:auto;
+}
+.title {
+	font:15px arial,sans-serif;
+	padding:100px;
+	border:100px;
+	margin:200px #0f0;
+}
+#main{
+	font-color:white;
+	width:25em;
+	margin:auto;
+}
+
+.tab{
+	font:20px times,serif;
+	padding:0;
+	border:#00ff00 100px;
+	margin:0 auto;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: #00FF00;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
+}
+ul {
+    list-style-type: none;
+    padding:.5em ;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: inline-block;
+    width: 6em;
+    height:1.2em;
+    margin:.4em;
+    background-color: #8A2BE2;
+}
+.vid_jay{
+	padding:1em;
+	border:1em;
+	margin:1em;
+	float:left;
+	background-color:white;
+}
+.vidtext{
+	margin:1em;
+}
+
+
+
+
+
+
+
+
+
+
