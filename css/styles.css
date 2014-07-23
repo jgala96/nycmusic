@@ -1,8 +1,10 @@
 body{
 	background-color:#6AC5AC;
 }
-.nyc img{
-	margin:auto;
+.nyc {
+	margin-left:auto;
+	margin-right:auto;
+	width:65%;
 }
 .title {
 	font:15px arial,sans-serif;
@@ -17,7 +19,7 @@ body{
 }
 
 .tab{
-	font:20px times,serif;
+	font:20px nunito;
 	padding:0;
 	border:#00ff00 100px;
 	margin:0 auto;
@@ -56,13 +58,17 @@ a {
 }
 .vid_jay{
 	padding:1em;
-	border:1em;
-	margin:1em;
+	margin:0 0 1em 1em;
 	float:left;
-	background-color:white;
+	width:50%;
+	height:50%;
 }
-.vidtext{
-	margin:1em;
+.vidjtext{
+	margin:0em;
+ 	border: solid blue 10px;
+ 	-webkit-box-sizing: border-box;
+     	-moz-box-sizing: border-box;
+          	box-sizing: border-box;
 }
 
 
