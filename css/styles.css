@@ -1,28 +1,19 @@
 body{
 	background-color:#6AC5AC;
 }
-.nyc {
-	margin-left:auto;
-	margin-right:auto;
-	width:65%;
-}
-.title {
-	font:15px arial,sans-serif;
-	padding:100px;
-	border:100px;
-	margin:200px #0f0;
-}
 #main{
 	font-color:white;
 	width:25em;
-	margin:auto;
+	margin:1em auto;
+}
+.nycwrapper {
+	width:100%;
+	max-width:65%;
+	margin:0 auto;
 }
 
 .tab{
 	font:20px nunito;
-	padding:0;
-	border:#00ff00 100px;
-	margin:0 auto;
 }
 a:link {
     color: white;
@@ -32,21 +23,23 @@ a:visited {
 }
 
 a:hover {
+	font-size:95%;
     color: #FF00FF;
 }
 
 a:active {
     color: #0000FF;
 }
-ul {
-    list-style-type: none;
-    padding:.5em ;
-    margin: 0;
-    overflow: hidden;
+ul{
+	padding:0;
+	margin:.1em;
 }
 
 li {
-    float: left;
+	 list-style:none;
+	 overflow: hidden;
+	 float:left;
+    
 }
 
 a {
@@ -58,18 +51,42 @@ a {
 }
 .vid_jay{
 	padding:1em;
-	margin:0 0 1em 1em;
 	float:left;
 	width:50%;
-	height:50%;
+	max-width:100%;
+	margin:0 auto;
 }
 .vidjtext{
-	margin:0em;
- 	border: solid blue 10px;
+ 	border: solid blue .7em;
  	-webkit-box-sizing: border-box;
-     	-moz-box-sizing: border-box;
-          	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:100%;
+    max-width:100%;
+    margin:0 auto;
 }
+div.events{
+	float:left;
+	background:green;
+}
+
+figure.events img {
+	width:13%;
+    display: inline;
+    padding:1em;
+    border: .4em solid #0000ff;
+    background:yellow;
+} 	
+figcaption.events-text{
+	margin: .1em;
+}
+
+
+
+
+
+
+
 
 
 
