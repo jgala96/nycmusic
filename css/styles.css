@@ -1,27 +1,25 @@
 body{
-	background-color:#6AC5AC;
+	background-color:#AFEEEE;
 }
-#main{
-	font-color:white;
-	width:25em;
-	text-align:center;
-}/*
-.nycwrapper {
-	width:100%;
-	max-width:65%;
+/*.classical {
+	width:55%;
 	margin:auto;
+	position:absolute;
+	z-index:-1;
 }*/
-
-nav.tab{
+.bcontainer{
+	width:100%;
+	background-color:blue;
+}
+.tab{
 	font:20px nunito;
 	text-align:center;
-	width:60em;
 }
 a:link {
-    color: white;
+    color: #FF4500;
 }
 a:visited {
-    color: #00FF00;
+    color: #FFFFFF;
 }
 
 a:hover {
@@ -34,7 +32,7 @@ a:active {
 }
 ul{
 	padding:0;
-	margin:1em;
+	margin:1.5%;
 }
 
 li {
@@ -47,19 +45,31 @@ li {
 a {
     display: inline-block;
     width: 6em;
-    height:1.2em;
-    margin:.4em;
-    background-color: #8A2BE2;
+    height:1.5em;
+    margin:.6em;
+}
+#main{
+	width:40%;
+	height:100%;
+	margin:auto;
+}
+ .maintext{
+ 	font:Lato;
+	font-color:#0f0;
+}
+figure #nyc{
+	background-color:blue;
+	margin:auto;
 }
 .vid_jay{
-	padding:1em;
+	padding:1.5%;
 	float:left;
 	width:50%;
 	max-width:100%;
 	margin:0 auto;
 }
 .vidjtext{
- 	border: solid blue .7em;
+ 	border: solid blue .8em;
  	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -68,19 +78,19 @@ a {
     margin:0 auto;
 }
 div.eventsright{
-	width:15em;
+	width:20%;
 	float:right;
 	background:;
 	padding:5%;
 }
 div.eventsleft{
-	width:15em;
+	width:20%;
 	float:left;
 	background:;
 	padding:5%;
 }
 div.eventscenter{
-	width:30em;
+	width:45%;
 	margin:auto;
 	background:;
 	padding:5%;
@@ -88,18 +98,34 @@ div.eventscenter{
 figure.events img {
 	width:100%;
 	display:inline;
-    padding:1em;
+    padding:5%;
     border: .4em solid #0000ff;
     background:yellow;
 } 	
 figcaption.events-text{
 	width:120%;
-	margin: .1em;
+	margin: 2%;
 	text-align:center;
 }
-
-
-
+#music-align{
+	padding:1em;
+	float:left;
+}
+.music-pic1{
+	display: inline;
+	width:100%;
+	max-width:32.5%;
+}
+.music-pic2{
+	display: inline;
+	width:100%;
+	max-width:34.1%;
+}
+.music-pic3{
+	display: inline;
+	width:100%;
+	max-width:31%;
+}
 
 
 
